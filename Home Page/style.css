@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  height: 100vh;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background: #f6f5f4;
+  margin-bottom: 40px;
+}
+
+header .container {
+  padding: 33px 0px;
+  display: flex;
+  align-items: baseline;
+  box-shadow: inset 0px -1px 0px #e0e0e0;
+}
+
+.logo {
+  font-size: 19px;
+  font-weight: 400;
+  color: #000000;
+  font-family: "Dela Gothic One";
+  margin-right: 30px;
+}
+
+ul li a {
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 16px;
+  color: #757575;
+  height: 22px;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+ul li:not(:last-child) {
+  margin-right: 30px;
+}
+
+.home {
+  color: #000000;
+}
+
+.sign-out {
+  color: #000000;
+  font-weight: 700;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.main-menu {
+  display: flex;
+  margin: 0 auto;
+  width: 60%;
+}
+
+.title {
+  width: 221px;
+  height: 16px;
+  color: #2b788b;
+  margin-bottom: 24px;
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+h1 {
+  width: 543px;
+  height: 201px;
+  font-family: "Dela Gothic One";
+  font-size: 56px;
+  margin-bottom: 60px;
+}
+
+.desc {
+  height: 50px;
+  width: 400px;
+  font-family: "Montserrat";
+  color: #757575;
+  margin-bottom: 32px;
+  font-size: 18px;
+}
+
+.box{
+    width: 165px;
+    height: 45px;
+    background-color: #C3DCE3;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box a{
+    text-decoration: none;
+    color: #2B788B;
+}
+
+.menu-end {  
+    display: flex;
+}
+
+span{
+    color: #2B788B;
+    width: 24px;
+    height: 30px;
+}
+
+h4{
+    font-weight: 400;
+    font-size: 40px;
+    color: #000;
+    font-family: 'Dela Gothic One';
+}
+
+
+
+
+

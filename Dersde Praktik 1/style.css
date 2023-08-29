@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 30px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cities{
+     display: flex;
+     animation: pulse 30s linear infinite;
+}
+
+.cities img{
+    width: 30%;
+    height: 40vh;
+    border-radius: 10px;
+    margin-right: 50px;
+}
+
+@keyframes pulse{
+
+   0%{
+     transform:translateX(0%) ;
+   }
+
+   50%{
+    transform: translateX(-85%);
+   }
+
+   100%{
+     transform: translateX(100%);
+   }
+       
+}
+
+

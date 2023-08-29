@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1e1e1e;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-family: "Popins" sans-serif;
+    color: #0E183E;
+    width: 134px;
+    height: 30px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.box {
+    background-color: #fff;
+    border-radius: 20px;
+    width: 400px;
+    height: 300px;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+
+.subject-title {
+    width: 36px;
+    height: 21px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.progress {
+    background-color: #E8EBF4;
+    width: 300px;
+    height: 15px;
+    border: 1px solid #C3CDE9;
+    border-radius: 10px;
+    margin-right: 10px;
+    position: relative;
+}
+
+.fill {
+    display: flex;
+    align-items: center;
+}
+
+.progress::before {
+    content: "";
+    display: inline-block;
+    width: 156px;
+    height: 15px;
+    border: 1px solid #C3CDE9;
+    border-radius: inherit;
+    background-color: #FC9860;
+    position: absolute;
+    top: -1px;
+    left: -1px;
+}
+.subject-title2{
+    width: 72px;
+    height: 21px;
+    font-weight: 400;
+    font-size: 14px;
+}
+.progress2{
+background-color: #ebe8f4;
+border: 1px solid #C3CDE9;
+border-radius: 10px;
+width: 300px;
+height: 15px;
+position: relative;
+margin-right:10px; ;
+}
+
+
+
+.progress2::before{
+content:"";
+display: inline-block;
+border: 1px solid #C3CDE9;
+border-radius: inherit;
+background-color: #608CFC;
+position: absolute;
+width: 228px;
+height: 15px;
+top: -1px;
+left: -1px;
+
+}
+.fill2{
+    display: flex;
+ align-items: center;
+}
+
+.subject-title3{
+    width: 55px;
+    height: 21px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.progress3{
+width: 300px;
+height: 15px;
+background: #E8EBF4;
+border:1px solid #C3CDE9;
+border-radius:10px;
+position: relative;
+margin-right: 10px;
+}
+
+.progress3::before{
+content: "";
+display: inline-block;
+border: 1px solid #C3CDE9;
+border-radius: inherit;
+background-color:#FC6086; 
+width: 63px;
+height: 15px;
+position: absolute;
+top: -1px;
+left: -1px;
+}
+
+
+.fill3{ 
+display: flex;
+align-items: center;
+
+}
+
+.percentage{
+width: 25px;
+height: 18px;
+color: #0E183E;
+font-weight: 500;
+font-size: 12px;
+}
+
+.percentage2{
+width: 24px;
+height: 18px;
+font-weight: 500;
+font-size: 12px;
+color: #0E183E;
+}
+
+
+.percentage3{
+width: 21px;
+height: 18px;
+font-weight: 500;
+font-size: 12px;
+color: #0E183E;
+}
+
+.subject{
+margin-bottom: 25px; 
+}
+
+
+.subject2{
+margin-bottom: 25px;
+}

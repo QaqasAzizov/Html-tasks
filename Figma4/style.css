@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+body{
+    background-color:#EAECF9;
+    height: 100vh;
+    width: 1280px;
+    height: 832px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 810px;
+    height: 718px;
+    background: #FFFFFF;
+    border-radius:15px;
+    padding: 60px 70px;
+    flex-wrap: wrap;
+    display: flex;
+    margin-right: 15px ;
+    
+}
+
+.cart{
+    width: 220px;
+    height: 220px;
+    background: #544BAB;
+    padding: 20px;
+}
+
+
+
+
+.cart-month{
+    width: 26px;
+    height: 18px;
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+}
+
+.cart-day{
+    width: 14px;
+    height: 30px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.cart-menu{
+    width: 181px;
+    height: 54px;
+    font-weight: 600;
+    font-size: 12px;
+    color: #FFFFFF;
+    margin-bottom: 33px;
+}
+
+.cart-end{
+    display: flex;
+    
+}
+
+.watch{
+    width: 59px;
+    height: 15px;
+    font-weight: 400;
+    font-size: 10px;
+    color: #FFFFFF;
+}
+
+.online{
+    width: 32px;
+    height: 15px;
+    font-weight: 400;
+    font-size: 10px;
+    color: #FFFFFF;
+    margin-right: 102px;
+}
+
+.cart-icon a{
+    width: 16px;
+    height: 12px;
+    color: #FFFFFF;
+    
+}
+
+  .cart2{
+    width: 220px;
+    height: 220px;
+    background: #EAECF9;
+    padding: 20px;
+}
+
+
+.cart-month2{
+    width: 26px;
+    height: 18px;
+    font-weight: 400;
+    font-size: 12px;
+    color: #37335d;
+    margin-bottom: 5px;
+}
+
+.cart-day2{
+    width: 14px;
+    height: 30px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #37335d;
+    margin-bottom: 10px;
+}
+
+.cart-menu2{
+    width: 181px;
+    height: 54px;
+    font-weight: 600;
+    font-size: 12px;
+    color: #37335d;
+    margin-bottom: 33px;
+}
+
+.cart-end2{
+    display: flex;
+}
+
+.watch2{
+    width: 59px;
+    height: 15px;
+    font-weight: 400;
+    font-size: 10px;
+    color: #37335d;
+}
+
+.online2{
+    width: 32px;
+    height: 15px;
+    font-weight: 400;
+    font-size: 10px;
+    color: #37335d;
+    margin-right: 102px;
+}
+
+.cart3{
+    width: 220px;
+    height: 220px;
+    background: #544BAB;
+    padding: 20px;
+}
+
+
+
+
+.cart-month3{
+    width: 26px;
+    height: 18px;
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+}
+
+.cart-day3{
+    width: 14px;
+    height: 30px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.cart-menu3{
+    width: 181px;
+    height: 54px;
+    font-weight: 600;
+    font-size: 12px;
+    color: #FFFFFF;
+    margin-bottom: 33px;
+}
+
+.cart-end3{
+    display: flex;
+    
+}
+
+.watch3{
+    width: 60px;
+    height: 15px;
+    font-weight: 400;
+    font-size: 10px;
+    color: #FFFFFF;
+}
+
+.online3{
+    width: 32px;
+    height: 15px;
+    font-weight: 400;
+    font-size: 10px;
+    color: #FFFFFF;
+    margin-right: 102px;
+}
+.cart-icon3 a{
+    width: 16px;
+    height: 12px;
+    color: #FFFFFF;
+}
+
+.cart4{
+    width: 220px;
+    height: 220px;
+    background: #EAECF9;
+    padding: 20px;
+}
+
+
+.cart-month4{
+    width: 26px;
+    height: 18px;
+    font-weight: 400;
+    font-size: 12px;
+    color: #37335d;
+    margin-bottom: 5px;
+}
+
+.cart-day4{
+    width: 14px;
+    height: 30px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #37335d;
+    margin-bottom: 10px;
+}
+
+.cart-menu4{
+    width: 181px;
+    height: 54px;
+    font-weight: 600;
+    font-size: 12px;
+    color: #37335d;
+    margin-bottom: 33px;
+}
+
+.cart-end4{
+    display: flex;
+}
+
+.watch4{
+    width: 60px;
+    height: 15px;
+    font-weight: 400;
+    font-size: 10px;
+    color: #37335d;
+}
+
+.online4{
+    width: 32px;
+    height: 15px;
+    font-weight: 400;
+    font-size: 10px;
+    color: #37335d;
+    margin-right: 102px;
+}
+
+.cart5{
+    width: 220px;
+    height: 220px;
+    background: #544BAB;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+
+.cart-month5{
+    width: 26px;
+    height: 18px;
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+}
+
+.cart-day5{
+    width: 62px;
+    height: 30px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.cart-menu5{
+    width: 181px;
+    height: 54px;
+    font-weight: 600;
+    font-size: 12px;
+    color: #FFFFFF;
+    margin-bottom: 33px;
+}
+
+.cart-end5{
+    display: flex;
+    
+}
+
+.watch5{
+    width: 60px;
+    height: 15px;
+    font-weight: 400;
+    font-size: 10px;
+    color: #FFFFFF;
+}
+
+.online5{
+    width: 32px;
+    height: 15px;
+    font-weight: 400;
+    font-size: 10px;
+    color: #FFFFFF;
+    margin-right: 102px;
+}
+.cart-icon5 a{
+    width: 16px;
+    height: 12px;
+    color: #FFFFFF;
+}
+
+.cart6{
+    width: 220px;
+    height: 220px;
+    background: #EAECF9;
+    padding: 20px;
+}
+
+
+.cart-month6{
+    width: 26px;
+    height: 18px;
+    font-weight: 400;
+    font-size: 12px;
+    color: #37335d;
+    margin-bottom: 5px;
+}
+
+.cart-day6{
+    width: 66px;
+    height: 30px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #37335d;
+    margin-bottom: 10px;
+}
+
+.cart-menu6{
+    width: 181px;
+    height: 54px;
+    font-weight: 600;
+    font-size: 12px;
+    color: #37335d;
+    margin-bottom: 33px;
+}
+
+.cart-end6{
+    display: flex;
+}
+
+.watch6{
+    width: 60px;
+    height: 15px;
+    font-weight: 400;
+    font-size: 10px;
+    color: #37335d;
+}
+
+.online6{
+    width: 32px;
+    height: 15px;
+    font-weight: 400;
+    font-size: 10px;
+    color: #37335d;
+    margin-right: 102px;
+}
+
+.button{
+    width: 689px;
+    height: 108px;
+    background: #37335d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button a{
+    width: 114px;
+    height: 18px;
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+
+
+
+

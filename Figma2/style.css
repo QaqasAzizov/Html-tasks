@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: #e6e6ff;
+    font-family: 'Nunito';
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.container{
+    background: #FFFFFF;
+    box-shadow:4px 8px 20px rgba(0, 0, 0, 0.25);
+    border-radius:10px;  
+    padding: 60px 65px;  
+    text-align: center;
+    position: relative;
+}
+
+
+.container::before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: calc(100%-200px);
+    height: calc(100%+100px);
+    background-color: #6d6de6;
+    z-index: -1;
+    left: 100px;
+    top: -50px;
+}
+
+
+.container-title{
+      width: 250px;
+      height: 34px;
+      font-weight: 700;
+      font-size: 25px;
+      color: #000000;
+      margin-bottom: 25px;
+      text-align: center;
+}
+
+.box-container{
+    margin-top: 75px;
+}
+
+.price-link a{
+    width: 148px;
+    height: 21px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #6363ce;
+    margin-bottom: 75px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.box1{
+    width: 236px;
+    height: 321px;
+    background: #FFFFFF;
+    border:2px solid #F0F0F6;
+    border-radius: 5px;
+    padding: 30px;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.box1:not(:last-child){
+    margin-right: 30px;
+}
+
+.box-title1{
+    width: 62px;
+    height: 34px;
+    font-weight: 700;
+    font-size: 25px;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.box-subtitle1{
+    width: 157px;
+    height: 18px;
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.menu{
+    display: flex;
+}
+
+.box-price1{
+    width: 36px;
+    height: 41px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #000000;
+    margin-bottom: 95px;
+}
+
+.mon{
+    width: 38px;
+    height: 15px;
+    font-weight: 400;
+    font-size: 10px;
+    color: #000000;
+}
+
+.button1{
+    width: 176px;
+    height: 47px;
+    background: #6D6DE6;
+    border-radius:5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button1 a{
+    width: 77px;
+    height: 19px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.box-container{
+    margin-right: 30px;
+    display: flex;
+}
+
+.box-subtitle2{
+    width: 176px;
+    height: 36px;
+    font-weight: 400;
+    font-size: 12px;
+    color: #000000;
+    margin-bottom: 15px;
+}
+  
+.menu2{
+    display: flex;
+}
+
+.box-price2{
+    width: 36px;
+    height: 41px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #000000;
+    margin-bottom: 78px;
+}
+
+.mon2{
+    width: 38px;
+    height: 15px;
+    font-weight: 400;
+    font-size: 10px;
+    color: #000000;
+}
+
+.button2{
+    width: 176px;
+    height: 47px;
+    background: #6D6DE6;
+    border-radius:5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button2 a{
+    width: 134px;
+    height: 19px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.box-subtitle3{
+    width: 176px;
+    height: 36px;
+    font-weight: 400;
+    font-size: 12px;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.menu3{
+    display: flex;
+}
+
+.box-price3{
+    width: 54px;
+    height: 41px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #000000;
+    margin-bottom: 78px;
+}
+
+.mon3{
+    width: 38px;
+    height: 15px;
+    font-weight: 400;
+    font-size: 10px;
+    color: #000000;
+}
+
+.button3{
+    width: 176px;
+    height: 47px;
+    background: #6D6DE6;
+    border-radius:5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button3 a{
+    width: 88px;
+    height: 19px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
